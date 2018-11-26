@@ -1,0 +1,22 @@
+name: sentimentAnalysis
+channels:
+- !!python/unicode
+  'defaults'
+dependencies:
+- python=3.6
+- pip
+- numpy
+- jupyter
+- matplotlib
+- scikit-learn
+- scipy
+- pandas
+- nltk
+- spacy
+
+- pip:
+  - tensorflow
+  - keras
+  - beautifulsoup4
+  - kaggle
+  - keras_sequential_ascii
